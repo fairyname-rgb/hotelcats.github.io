@@ -2,8 +2,8 @@ $(document).ready(function(){
     $('.slideshow-container').slick({
         dots:true,
         arrows: true,
-        prevArrow:"<span class='priv_arrow'><img class='a-left control-c prev slick-prev' src='/images/previous.png'></span>",
-        nextArrow:"<span class='next_arrow'><img class='a-right control-c next slick-next' src='/images/next.png'></span>",
+        prevArrow:"<span class='priv_arrow'><img class='a-left control-c prev slick-prev' src='images/previous.png'></span>",
+        nextArrow:"<span class='next_arrow'><img class='a-right control-c next slick-next' src='images/next.png'></span>",
         responsive: [
           {
             breakpoint: 1024,
@@ -46,8 +46,8 @@ $(document).ready(function(){
     $('.slide-show-review').slick({
     arrows: true,
     centerMode: false,
-    prevArrow:"<span class='priv_arrow'><img class='a-left control-c prev slick-prev' src='/images/previous.png'></span>",
-    nextArrow:"<span class='next_arrow'><img class='a-right control-c next slick-next' src='/images/next.png'></span>",
+    prevArrow:"<span class='priv_arrow'><img class='a-left control-c prev slick-prev' src='images/previous.png'></span>",
+    nextArrow:"<span class='next_arrow'><img class='a-right control-c next slick-next' src='images/next.png'></span>",
       dots:true,
       infinite: true,
       slidesToShow: 2,

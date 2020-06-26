@@ -1,0 +1,290 @@
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding-right: 98px;
+}
+.nav>li>a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #1A212F;
+ padding-left: 30px;
+ font-family: 'Roboto', ;
+
+}
+.nav>li>a:hover{
+color: #FF7236;
+transition: all 0.4s ease 0s;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 98px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.gallery{
+display: flex;
+justify-content: center;
+margin-top: 70px;
+}
+.side-images{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+.side-images img{
+padding-bottom: 30px;
+}
+h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;    
+}
+.gallery-text-block{
+    padding-left: 70px;
+}
+.gallery-text-block p{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+background-color: #FF7236;
+font-family: Roboto;
+font-weight: 500;
+height: 46px;
+width: 230px;
+font-size: 14px;
+border-radius: 30px;
+margin-bottom: 25px;
+margin-top: 25px;
+border: none;
+cursor: pointer;
+color:#ffffff;
+}
+button:hover{
+background-color: #ffffff;
+color: #FF7236;
+border: 1px solid #FF7236;
+transition: all 0.4s ease 0s;
+}
+button i{
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 14px;
+    border: 7px solid white;
+    color: #FF7236;
+    font-size: 1.2em;
+   float: right;
+}
+
+.slide-text-box ul{
+    list-style: none;
+    }
+    .slide-text-box{
+        box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+    border-radius: 15px;
+    max-width: 500px;
+    max-height: 284px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    margin-left: 450px;
+    margin-top: 60px;
+    position: absolute;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+    }
+    .slide-text-box button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    background-color: #FF7236;
+    font-family: Roboto;
+    font-weight: 500;
+    height: 46px;
+    width: 230px;
+    font-size: 14px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    
+    margin-top: 25px;
+    margin: 0 20px;
+    border: none;
+    cursor: pointer;
+    color:#ffffff;
+    }
+    .slide-text-box button:hover{
+    background-color: #ffffff;
+    color: #FF7236;
+    border: 1px solid #FF7236;
+    transition: all 0.4s ease 0s;
+    }
+    .slide-text-box button i{
+        background-color: #ffffff;
+        border-radius: 50%;
+        margin-left: 14px;
+        border: 7px solid white;
+        color: #FF7236;
+        font-size: 1.2em;
+       float: right;
+    }
+    .mySlides{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .slick-track{
+        display: flex;
+    }
+    .mySlides img{
+    
+    }
+    .slide-text-box li{
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 30px;
+       text-align: left;
+    }
+    .slide-text-box p{
+    font-family: Rubik;
+    font-style: normal;
+    font-size: 22px;
+    align-items: flex-start;
+    font-weight: 600;
+    }
+    .contacts-block{
+        background-color: #FAC663;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer-icons{
+        display: flex;
+    }
+    .icons{
+        margin-bottom: 60px;
+        margin-right: 1em;
+        font-size: 1em;
+        color: #303030;
+        background-color: #1A212F;
+        border: 2px solid #303030;
+        border-radius: 50%;
+        padding: 0.2em;
+        transition: all .5s ease;
+        width: 1em;
+        text-align: center;
+        color: white;
+      }
+      .icons:hover{
+        cursor:pointer;
+      }
+    h5{
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    padding-right: 45px;
+    text-align:left;
+    }
+    .contacts-block{
+        margin-top: 150px;
+    }
+    .contacts-text{
+    padding-left: 198px;
+    }
+    
+    
+    .map{
+        width: 600px;
+    }
+    .contacts-sheldue, .contacts-adress, .contacts-number, .contacts-mail {
+        padding-bottom: 30px;
+    }
+    .paw{
+        position: relative;
+        float: right;
+        z-index: 1;
+    }
+    .contacts-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    }
+    .contacts-text span, .contacts-social{
+        font-weight: normal;
+        line-height: 4px;
+    }
+    .hover_bkgr_fricc{
+        background:rgba(0,0,0,.4);
+        cursor:pointer;
+        display:none;
+        height:100%;
+        position:fixed;
+        text-align:center;
+        top:0;
+        width:100%;
+        z-index:10000;
+    }
+    .hover_bkgr_fricc .helper{
+        display:inline-block;
+        height:100%;
+        vertical-align:middle;
+    }
+    .hover_bkgr_fricc > div {
+        background-color: #fff;
+        box-shadow: 10px 10px 60px #555;
+        display: inline-block;
+        height: auto;
+        max-width: 551px;
+        min-height: 100px;
+        vertical-align: middle;
+        width: 60%;
+        position: relative;
+        border-radius: 8px;
+        padding: 15px 5%;
+    }
+    .popupCloseButton {
+        background-color: #fff;
+        border: 3px solid #999;
+        border-radius: 50px;
+        cursor: pointer;
+        display: inline-block;
+        font-family: arial;
+        font-weight: bold;
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        font-size: 25px;
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+    }
+    .popupCloseButton:hover {
+        background-color: #ccc;
+    }
+    .trigger_popup_fricc {
+        cursor: pointer;
+        font-size: 20px;
+        margin: 20px;
+        display: inline-block;
+        font-weight: bold;
+    }
+    /* Popup box BEGIN */

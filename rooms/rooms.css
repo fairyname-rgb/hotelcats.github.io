@@ -428,7 +428,25 @@ h5 {
 
 .contacts-number {
   max-width: 131px; }
-
+  .footer-icons{
+    display: flex;
+}
+.icons{
+    margin-bottom: 60px;
+    margin-right: 1em;
+    font-size: 1em;
+    color: #303030;
+    background-color: #1A212F;
+    border: 2px solid #303030;
+    border-radius: 50%;
+    padding: 0.2em;
+    transition: all .5s ease;
+    width: 1em;
+    text-align: center;
+  }
+  .icons:hover{
+    cursor:pointer;
+  }
 .item-text-block {
   padding-left: 20px; }
 
@@ -508,7 +526,8 @@ h5 {
     display: none; }
 
   .contacts-text {
-    padding-left: 45px; } }
+    padding-left: 45px;
+ } }
 /* Landscape phones and portrait tablets */
 @media (max-width: 667px) {
   .item {
@@ -519,7 +538,7 @@ h5 {
 
   .rooms-container {
     grid-template-columns: auto;
-    padding-left: 80px; }
+    margin: 0 auto; }
 
   .logo {
     padding-left: 15px;
@@ -541,7 +560,7 @@ h5 {
   .banner {
     background-image: url(./images/banner_mobile.png);
     background-size: cover;
-    min-height: 520px; }
+   height: 720px; }
 
   .banner {
     margin-top: 70px; }
@@ -554,7 +573,9 @@ h5 {
     padding-right: 130px; }
 
   .banner-content {
-    text-align: center; }
+    display: flex; 
+    flex-direction: column;
+  }
 
   .header__burger {
     cursor: pointer;

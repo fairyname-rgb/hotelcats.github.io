@@ -190,7 +190,7 @@ a {
   text-align: center; }
 
 .header_text {
-  background-image: url(images/header_cat.png);
+  background-image: url(/images/header_cat.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: auto;
@@ -300,7 +300,7 @@ h2 {
 
 .why_section {
   background-position: right top;
-  background-image: url(images/pawt.png);
+  background-image: url(/images/pawt.png);
   background-repeat: no-repeat; }
 
 .why_icon {
@@ -442,7 +442,7 @@ blockquote:before {
   z-index: 0; }
 
 .slideshow-container {
-  background-image: url(images/fish_icon.png);
+  background-image: url(/images/fish_icon.png);
   background-position: top left;
   background-repeat: no-repeat;
   position: relative;
@@ -508,7 +508,7 @@ blockquote:before {
 
 .review-section {
   background-position: right top;
-  background-image: url(images/pawt2.png);
+  background-image: url(/images/pawt2.png);
   background-repeat: no-repeat;
   margin-top: 120px; }
 
@@ -588,33 +588,70 @@ h5 {
   padding-right: 45px;
   text-align: left; }
 
-.contacts-block {
-  margin-top: 150px; }
-
-.contacts-text {
-  padding-left: 198px; }
-
-.map {
-  width: 600px; }
-
-.contacts-sheldue, .contacts-adress, .contacts-number, .contacts-mail {
-  padding-bottom: 30px; }
-
+  .contacts-text {
+    padding-left: 58px; }
+  
+  .contacts-adress {
+    max-width: 230px; }
+  
+  .contacts-sheldue {
+    max-width: 203px; }
+  
+  .contacts-sheldue, .contacts-adress, .contacts-number, .contacts-mail {
+    padding-bottom: 10px; }
+  
+  .paw {
+    position: relative;
+    float: right;
+    z-index: 1; }
+  
+  .contacts-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px; }
+  
+  .contacts-text span, .contacts-social {
+    font-weight: normal;
+    line-height: 4px; }
+  
+  .contacts-social i {
+    color: #ffffff;
+    font-size: 1em; }
+  
+  .contacts-block {
+    margin-top: 140px;
+    background-color: #FAC663;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1366; }
+  
+  .contacts-number {
+    max-width: 131px; }
+    .footer-icons{
+      display: flex;
+  }
+  .icons{
+      margin-bottom: 60px;
+      margin-right: 1em;
+      font-size: 1em;
+      color: #303030;
+      background-color: #1A212F;
+      border: 2px solid #303030;
+      border-radius: 50%;
+      padding: 0.2em;
+      transition: all .5s ease;
+      width: 1em;
+      text-align: center;
+    }
+    .icons:hover{
+      cursor:pointer;
+    }
 .paw {
   position: relative;
   float: right;
   z-index: 1; }
-
-.contacts-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 19px; }
-
-.contacts-text span, .contacts-social {
-  font-weight: normal;
-  line-height: 4px; }
 
   /*Hamburger menu
 
@@ -641,9 +678,7 @@ h5 {
   .contacts-block {
     margin-top: 60px; }
 
-  .contacts-text {
-    padding-left: 50px;
-    text-align: left; }
+
 
   .review-text p {
     width: 189px; }
@@ -675,7 +710,7 @@ h5 {
     grid-template-columns: 1fr 1fr; }
 
   .header_text {
-    background-image: url(images/Frame\ 1.png);
+    background-image: url(/images/Frame\ 1.png);
     background-size: cover;
     padding-left: 1px;
     text-align: center;
@@ -698,9 +733,6 @@ h5 {
     max-width: 310px;
     font-size: 15px; }
 
-  .contacts-text {
-    padding-left: 1px;
-    text-align: center; }
 
   .map {
     width: 420px; } }
@@ -713,7 +745,7 @@ h5 {
     padding: 0 2px; }
 
   .header_text {
-    background-image: url(images/Header_mobile_cat.png);
+    background-image: url(/images/Header_mobile_cat.png);
     background-size: cover;
     padding-left: 1px;
     text-align: center;
@@ -723,7 +755,7 @@ h5 {
   .slide-text-box {
     background-color: #ffffff;
     margin-left: 1px;
-    margin-top: 193px;
+    margin-top: 466px;
     border-radius: none;
     position: relative;
     padding-bottom: 1px;
@@ -746,6 +778,7 @@ h5 {
   .mySlides {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding-top: 1px;
     padding-left: 1px;
     margin: 0 auto; }
@@ -854,10 +887,19 @@ h5 {
     margin: 0px 0px 20px 0px;
     text-transform: uppercase;
     padding: 10px 0; }
-
+    .contacts-texts span{
+     width: 50px;
+    }
+    .contacts-block{
+      display:flex;
+      flex-direction: column;
+    }
   .slide-text-box li {
     text-align: center; }
-
+  .map{
+    width: 100%;
+    height: 477px;
+  }
   .slide-text-box p {
     padding-left: 65px; } }
 /* xs-размер (<=575px) */

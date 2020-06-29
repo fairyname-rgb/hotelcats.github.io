@@ -555,7 +555,7 @@ h5 {
 
   .rooms-container {
     grid-template-columns: auto;
-    margin: auto; }
+    margin: 0 auto; }
 
   .banner {
     background-image: url(./images/banner_mobile.png);

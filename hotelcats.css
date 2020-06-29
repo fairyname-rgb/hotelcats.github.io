@@ -190,7 +190,7 @@ a {
   text-align: center; }
 
 .header_text {
-  background-image: url(/images/header_cat.png);
+  background-image: url(images/header_cat.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: auto;
@@ -710,7 +710,7 @@ h5 {
     grid-template-columns: 1fr 1fr; }
 
   .header_text {
-    background-image: url(/images/Frame\ 1.png);
+    background-image: url(images/Frame\ 1.png);
     background-size: cover;
     padding-left: 1px;
     text-align: center;
@@ -745,7 +745,7 @@ h5 {
     padding: 0 2px; }
 
   .header_text {
-    background-image: url(/images/Header_mobile_cat.png);
+    background-image: url(images/Header_mobile_cat.png);
     background-size: cover;
     padding-left: 1px;
     text-align: center;

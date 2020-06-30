@@ -865,7 +865,9 @@ h5 {
 
   .header__burger.active span {
     transform: scale(0); }
-
+      .why_main_text{
+      font-size: 18px;
+    }
   .header__menu {
     padding-top: 76px;
     position: fixed;

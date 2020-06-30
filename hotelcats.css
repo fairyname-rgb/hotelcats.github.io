@@ -879,7 +879,9 @@ h5 {
 
   .header__menu.active {
     top: 0; }
-
+       .why_text {
+      font-size: 15px;
+    }
   .nav {
     display: block;
     margin-top: 50px;

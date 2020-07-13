@@ -167,6 +167,7 @@ a {
 .popup__content {
   background-color: #ffffff;
   color: #1A212F;
+  margin-top: 102px;
   max-width: 800px;
   padding: 30px;
   position: absolute;

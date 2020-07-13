@@ -190,7 +190,7 @@ a {
   text-align: center; }
 
 .header_text {
-  background-image: url(images/header_cat.png);
+  background-image: url(/images/header_cat.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: auto;
@@ -672,8 +672,21 @@ h5 {
     opacity: 1; } }
 /* md-размер (<=991px) */
 @media (max-width: 991px) {
+  .popup__content{
+    margin-top: 102px;
+    max-width: 502px;
+    height: 656px;
+  }
+  .modal-input{
+    width: 260px;
+    padding-left: 12px;
+  }
+  .modal-input-date{
+    width: 107px;
+  }
   .nav > li > a {
     padding-left: 30px; }
+
 
   .contacts-block {
     margin-top: 60px; }
@@ -710,7 +723,7 @@ h5 {
     grid-template-columns: 1fr 1fr; }
 
   .header_text {
-    background-image: url(images/Frame\ 1.png);
+    background-image: url(/images/Frame\ 1.png);
     background-size: cover;
     padding-left: 1px;
     text-align: center;
@@ -738,6 +751,19 @@ h5 {
     width: 420px; } }
 /* sm-размер (<=768px) */
 @media (max-width: 766px) {
+  .popup__content{
+    margin-top: 102px;
+    max-width: 290px;
+    height: 656px;
+  }
+  .modal-input{
+    width: 260px;
+    padding-left: 12px;
+  }
+  .modal-input-date{
+    width: 107px;
+  }
+
   .why_block {
     grid-template-columns: 1fr;
     grid-column-gap: 0px;
@@ -745,7 +771,7 @@ h5 {
     padding: 0 2px; }
 
   .header_text {
-    background-image: url(images/Header_mobile_cat.png);
+    background-image: url(/images/Header_mobile_cat.png);
     background-size: cover;
     padding-left: 1px;
     text-align: center;
@@ -785,7 +811,7 @@ h5 {
 
   .slide-text-box {
     width: 290px;
-    height: 300px; }
+    height: 290px; }
 
   .review-box {
     width: 230px;
@@ -823,7 +849,9 @@ h5 {
     width: 50px;
     height: 50px;
     z-index: 3; }
-
+    .why_main_text{
+      font-size: 18px;
+    }
   .header__burger span {
     position: absolute;
     background-color: orange;
@@ -865,9 +893,7 @@ h5 {
 
   .header__burger.active span {
     transform: scale(0); }
-      .why_main_text{
-      font-size: 18px;
-    }
+
   .header__menu {
     padding-top: 76px;
     position: fixed;
@@ -879,14 +905,14 @@ h5 {
 
   .header__menu.active {
     top: 0; }
-       .why_text {
-      font-size: 15px;
-    }
+
   .nav {
     display: block;
     margin-top: 50px;
     margin-left: 15px; }
-
+    .why_text {
+      font-size: 15px;
+    }
   .nav li {
     margin: 0px 0px 20px 0px;
     text-transform: uppercase;
@@ -909,3 +935,4 @@ h5 {
 /* xs-размер (<=575px) */
 
 /*# sourceMappingURL=hotelcats.css.map */
+

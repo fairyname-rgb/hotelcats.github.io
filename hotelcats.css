@@ -144,6 +144,7 @@ a {
   padding: 30px 10px; }
 
 .secondpopup__content {
+  margin-top: 102px;
   background-color: #ffffff;
   color: #1A212F;
   max-width: 570px;

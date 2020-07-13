@@ -190,7 +190,7 @@ a {
   text-align: center; }
 
 .header_text {
-  background-image: url(/images/header_cat.png);
+  background-image: url(./images/header_cat.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: auto;
@@ -300,7 +300,7 @@ h2 {
 
 .why_section {
   background-position: right top;
-  background-image: url(/images/pawt.png);
+  background-image: url(./images/pawt.png);
   background-repeat: no-repeat; }
 
 .why_icon {

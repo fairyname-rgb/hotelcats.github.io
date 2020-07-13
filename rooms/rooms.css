@@ -530,6 +530,18 @@ h5 {
  } }
 /* Landscape phones and portrait tablets */
 @media (max-width: 667px) {
+  .popup__content{
+    margin-top: 102px;
+    max-width: 290px;
+    height: 656px;
+  }
+  .modal-input{
+    width: 260px;
+    padding-left: 12px;
+  }
+  .modal-input-date{
+    width: 107px;
+  }
   .item {
     margin: 0 auto; }
 
